@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Fraunces', sans-serif;
+    background: hsl(30, 38%, 92%);
+}
+
+#container {
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#img-product {
+    width: 400px;
+    border-radius: 20px 0 0 20px;
+}
+
+#item-id {
+    width: 400px;
+    background: white;
+    border-radius: 0 20px 20px 0;
+}
+
+#content {
+    margin: 50px;
+}
+
+h3 {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-family: Montserrat;
+    line-height: 2;
+}
+
+#cost {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#cost-new {
+    margin-right: 25px;
+    font-size: 50px;
+    color: rgb(53, 148, 49);
+}
+
+#cart-icon {
+    width: 20px;
+    padding: 0 10px 0 0;
+}
+
+button {
+    background: rgb(53, 148, 49);
+    color: white;
+    margin-top: 50px;
+    padding: 15px 94px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    background: rgb(0, 85, 0);
+}
+
+@media (max-width: 1440px) {
+    #img-product {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #container {
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #item-id {
+        width: 400px;
+        background: white;
+        border-radius: 0 0 20px 20px;
+    }
+
+    #content {
+        margin: 25px;
+    }
+
+    h1 {
+        margin: 5px 0;
+        line-height: 1;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    #cost {
+        margin: 5px 0;
+    }
+
+    #cost-new {
+        font-size: 40px;
+    }
+
+    button {
+        margin: 15px 0;
+        padding: 15px 119px;
+    }
+}
+
+
