@@ -1,6 +1,5 @@
 - [Overview]
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -8,10 +7,6 @@
 ### The challenge
 
 Create a Product Preview Card that changes layout depend on the size of the screen. I didn't have access to FIGMA or SKETCH to get accurate design solutions, so I eyeballed it close enough to the provided designs.
-
-### Screenshot
-
-![](.images/screenshot.png)
 
 ### Built with
 
