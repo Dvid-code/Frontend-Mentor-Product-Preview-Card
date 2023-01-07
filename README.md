@@ -11,7 +11,7 @@ Create a Product Preview Card that changes layout depend on the size of the scre
 
 ### Screenshot
 
-![](.images/screenshot.jpg)
+![](.images/screenshot.png)
 
 ### Built with
 
